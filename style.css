@@ -103,6 +103,5 @@ nav h3{
 }
     
 .features-btn{
-    align-items: start;
-    justify-content: start;
+    width: 28%;
 }
