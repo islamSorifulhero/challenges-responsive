@@ -6,6 +6,9 @@
         font-size: .8rem;
         min-height: 40px;
     }
+    .our-features{
+        flex-direction: column;
+    }
 }
 @media screen and (max-width: 576px){
     nav{
@@ -19,5 +22,8 @@
     }
     .btn{
         font-size: .6rem;
+    }
+    .our-img{
+        grid-template-columns: 1fr;
     }
 }
