@@ -59,13 +59,15 @@ nav h3{
     margin: 20px auto;
 }
 .btn{
-    width: 14%;
-    min-height: 64px;
+    width: auto;
+    height: auto;
+    padding: 10px 16px;
+    /* min-height: 64px; */
     border-radius: 5px;
     border: none;
     background-color: #FF900E;
     color: #ffffff;
-    font-size: 1.25rem;
+    font-size: 1.6rem;
 }
 .banner img {
     width: 90%;
@@ -103,5 +105,5 @@ nav h3{
 }
     
 .features-btn{
-    width: 28%;
+    /* width: 28%; */
 }
