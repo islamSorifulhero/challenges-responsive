@@ -1,36 +1,70 @@
-@media screen and (max-width: 992px){
-    .our-features{
+@media screen and (max-width: 992px) {
+    .our-features {
+        flex-direction: column;
+    }
+
+    .love-enjoy {
         flex-direction: column;
     }
 }
 
-@media screen and (max-width: 768px){
-    .descripsion{
+@media screen and (max-width: 768px) {
+    .descripsion {
         font-size: .8rem;
     }
-    .our-features{
+
+    .our-features {
         flex-direction: column;
+    }
+
+    .btn-experience {
+        margin-top: 20px;
+        margin-left: 20px;
     }
 }
-@media screen and (max-width: 576px){
-    nav{
+
+@media screen and (max-width: 576px) {
+    nav {
         flex-direction: column;
     }
-    .banner h1{
+
+    .banner h1 {
         font-size: 2rem;
     }
-    .descripsion{
+
+    .descripsion {
         font-size: .6rem;
     }
-    .our-img{
+
+    .our-img {
         grid-template-columns: 1fr;
     }
+
+    .btn-experience {
+        margin-top: 0px;
+        margin-left: 70px;
+    }
 }
-@media screen and (min-width: 340px){
-    .home ul li{
+
+@media screen and (min-width: 340px) {
+    .home ul li {
         margin-right: 10px;
     }
-    .our-description{
+
+    .our-description {
         width: 15rem;
+    }
+
+    .love-enjoy-img {
+        /* width: auto;
+        height: auto; */
+    }
+    .love-img{
+         width: 100%;
+    }
+
+    .btn-experience {
+        margin-top: 0px;
+        margin-left: 20px;
     }
 }

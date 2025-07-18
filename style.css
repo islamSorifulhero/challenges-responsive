@@ -133,8 +133,13 @@ nav h3{
     font-size: 1rem;
 }
 .love-enjoy-img{
-    /* width: 40%;
-    height: auto; */
+    width: auto;
+    height: auto;
+
+}
+.love-img{
+    width: auto;
+    height: auto;
 
 }
 .features-details-info h3{
