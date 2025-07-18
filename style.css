@@ -103,7 +103,59 @@ nav h3{
 .feature-span-color{
     color: #FF900E;
 }
-    
-.features-btn{
-    /* width: 28%; */
+
+/*   hide section */
+
+.hide{
+    display: none;
+}
+
+/* love enjoy section */
+
+.love-enjoy{
+    display: flex;
+    margin: 130px auto;
+    width: 90%;
+    gap: 3rem;
+    height: auto;
+    align-items: center;
+    justify-content: center;
+}
+.love-enjoy-description{
+    /* width: 35%; */
+}
+.features-love h1{
+    font-size: 2.8rem;
+    font-weight: bold;
+    border-left: 5px solid #FF900E;
+}
+.features-love p{
+    font-size: 1rem;
+}
+.love-enjoy-img{
+    /* width: 40%;
+    height: auto; */
+
+}
+.features-details-info h3{
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: #131313;
+}
+.features-details-info p{
+    font-size: 1rem;
+    color: #727272;
+}
+.features-details-info{
+    gap: 1.25rem;
+}
+.info-1{
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.06);
+    border-radius: 8px;
+    padding: 20px;
+}
+.btn-experience{
+    padding: 28px 16px;
+    margin-top: -100px;
+    margin-left: -30px;
 }
