@@ -6,8 +6,13 @@
     .love-enjoy {
         flex-direction: column;
     }
+
     .some-fact {
         padding-left: 4rem;
+    }
+    .our-logo {
+        grid-template-columns: auto;
+        gap: 30px;
     }
 }
 
@@ -24,11 +29,13 @@
         margin-top: 20px;
         margin-left: 20px;
     }
-    .some-container{
+
+    .some-container {
         flex-direction: column;
         gap: 10px;
     }
-    .some-fact{
+
+    .some-fact {
         padding-left: 2rem;
     }
 }
@@ -54,7 +61,8 @@
         margin-top: 0px;
         margin-left: 70px;
     }
-    .some-fact{
+
+    .some-fact {
         padding-left: 1rem;
     }
 }
@@ -67,9 +75,11 @@
     .our-description {
         width: 15rem;
     }
-    .love-img{
-         width: 100%;
+
+    .love-img {
+        width: 100%;
     }
+
     .btn-experience {
         margin-top: 0px;
         margin-left: 20px;

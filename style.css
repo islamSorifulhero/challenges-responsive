@@ -113,9 +113,6 @@ nav h3{
     align-items: center;
     justify-content: center;
 }
-.love-enjoy-description{
-    /* width: 35%; */
-}
 .features-love h1{
     font-size: 2.8rem;
     font-weight: bold;
@@ -195,4 +192,33 @@ nav h3{
 
 .hide{
     display: none;
+}
+
+/* our logo  */
+
+.our-sponspors-description{
+    margin: 50px auto;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+.our-sponspors-description h2{
+    font-size: 2.8rem;
+    font-weight: bold;
+}
+.our-sponspors-description p{
+    font-size: 1rem;
+}
+.our-logo{
+    width: 100%;
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    gap: 120px;
+}
+.our-logo img{
+    width: 100px;
+    height: 30px;
 }
