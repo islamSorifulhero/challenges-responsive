@@ -20,8 +20,6 @@
 }
 nav{
     display: flex;
-    /* justify-content: space-between; */
-    /* margin: 0 auto; */
     align-items: center;
 }
 nav h3{
@@ -104,12 +102,6 @@ nav h3{
     color: #FF900E;
 }
 
-/*   hide section */
-
-.hide{
-    display: none;
-}
-
 /* love enjoy section */
 
 .love-enjoy{
@@ -163,4 +155,44 @@ nav h3{
     padding: 28px 16px;
     margin-top: -100px;
     margin-left: -30px;
+}
+
+/* some container */
+
+.some-fact{
+    padding-left: 6rem;
+}
+.some-facts h2{
+    font-size: 2.8rem;
+    font-weight: bold;
+}
+.some-container{
+    display: flex;
+    justify-content: space-around;
+    margin: 100px auto;
+}
+.container-even{
+    border: 1px solid #FF900E;
+    padding: 30px 20px;
+    border-radius: 8px;
+    text-align: center;
+    align-items: center;
+}
+.container-even h1{
+    font-size: 2.8rem;
+    font-weight: 600;
+    color: #424242;
+    margin: 0 auto;
+}
+.container-even h5{
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: #727272;
+    margin: 0 auto;
+}
+
+/*   hide section */
+
+.hide{
+    display: none;
 }

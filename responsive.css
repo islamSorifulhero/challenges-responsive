@@ -6,6 +6,9 @@
     .love-enjoy {
         flex-direction: column;
     }
+    .some-fact {
+        padding-left: 4rem;
+    }
 }
 
 @media screen and (max-width: 768px) {
@@ -20,6 +23,13 @@
     .btn-experience {
         margin-top: 20px;
         margin-left: 20px;
+    }
+    .some-container{
+        flex-direction: column;
+        gap: 10px;
+    }
+    .some-fact{
+        padding-left: 2rem;
     }
 }
 
@@ -44,6 +54,9 @@
         margin-top: 0px;
         margin-left: 70px;
     }
+    .some-fact{
+        padding-left: 1rem;
+    }
 }
 
 @media screen and (min-width: 340px) {
@@ -54,17 +67,14 @@
     .our-description {
         width: 15rem;
     }
-
-    .love-enjoy-img {
-        /* width: auto;
-        height: auto; */
-    }
     .love-img{
          width: 100%;
     }
-
     .btn-experience {
         margin-top: 0px;
         margin-left: 20px;
     }
+    /* .some-fact{
+        padding-left: .2rem;
+    } */
 }
